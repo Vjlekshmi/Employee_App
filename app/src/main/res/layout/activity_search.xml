@@ -1,0 +1,59 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/buttonstyle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="EMPLOYEE CODE"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/empcode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="SEARCH"
+        android:id="@+id/searchbtn"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="EMPLOYEE NAME"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+   <TextView
+       android:text="DESIGNASTION"
+       android:textColor="@color/white"
+       android:textSize="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+     <TextView
+         android:text="MOBILE NO"
+         android:textSize="20dp"
+         android:textColor="@color/white"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>

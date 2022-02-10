@@ -1,0 +1,64 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/buttonstyle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Employee CODE"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/empcode"/>
+
+    <TextView
+        android:text="NAME"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name" />
+    <TextView
+        android:text="DESIGNATION"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:text="MOBILE NO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mob"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:text="SUBMIT"
+        android:id="@+id/subbtn"
+        android:layout_margin="15dp"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
